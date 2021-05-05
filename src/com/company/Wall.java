@@ -10,6 +10,7 @@ public class Wall extends Barrier {
         this.heigth = heigth;
     }
     
+    
     public int getHeigth() {
         return heigth;
     }

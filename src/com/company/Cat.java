@@ -11,6 +11,7 @@ public class Cat implements Skills {
         this.jumpHeight = jumpHeight;
     }
     
+    
     @Override
     public void run() {
         System.out.println("Cat " + this.name + " is running " + this.getRunDistance());

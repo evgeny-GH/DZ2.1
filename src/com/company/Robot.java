@@ -11,6 +11,7 @@ public class Robot implements Skills {
         this.jumpHeight = jumpHeight;
     }
     
+    
     @Override
     public void run() {
         System.out.println("Robot " + this.name + " is running " + this.getRunDistance());
