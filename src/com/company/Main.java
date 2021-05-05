@@ -47,6 +47,7 @@ public class Main {
             }
         }
         
+        
         for (int i = 0; i < skills.length; i++) {
             boolean result = true;
             for (int j = 0; j < barriers.length; j++) {

@@ -11,6 +11,7 @@ public class Human implements Skills{
         this.jumpHeight = jumpHeight;
     }
     
+    
     @Override
     public void run() {
         System.out.println("Human " + this.name + " is running " + this.getRunDistance());
